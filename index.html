@@ -5,8 +5,9 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 	<meta charset="utf-8">
+	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Wedding &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Wedding &mdash; Invitation</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -116,7 +117,7 @@
 							<h1>Neha &amp; Rishabh</h1>
 							<h2>Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="https://calendar.google.com/calendar/r/eventedit?text=Marriage&dates=20190421T00000Z/20190423T00000Z&details=For+details,+link+here:+https://sk9331657.github.io/wedding/&location=Royal Orchid Fort Resort+Tara Hall Estate, Picture Palace Road, Mussoorie, Uttarakhand 248179&sf=true"  target="_blank" class="btn btn-default btn-sm">Save the date</a></p>
+							<p><a href="https://calendar.google.com/calendar/r/eventedit?text=Neha+Weds+Rishabh&dates=20190321T000000Z/20190323T223000Z&details=For+details,+link+here:+https://nehawedsrishabh.tk/&location=Royal+Orchid+Fort+Resort+Tara+Hall+Estate,+Picture+Palace+Road,+Mussoorie,+Uttarakhand&sf=true&output=xml"  target="_blank" class="btn btn-default btn-sm">Save the date</a></p>
 						
 						</div>
 				
@@ -565,7 +566,7 @@
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline" action="">
+					
 						<div class="col-md-3 col-sm-4">
 							<div class="form-group">
 								<label for="name" class="sr-only">Name</label>
@@ -581,13 +582,13 @@
 						<div class="col-md-3 col-sm-4">
 								<div class="form-group">
 									<label for="Total Guests Coming" class="sr-only">Total Guests Coming</label>
-									<input type="number" required class="form-control" id="email" placeholder="Total Guests Coming">
+									<input type="number" required class="form-control" id="totalguests" placeholder="Total Guests Coming">
 								</div>
 							</div>
 						<div class="col-md-3 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
+							<button type="button" onclick="sendemail()" class="btn btn-default btn-block">I am Attending</button>
 						</div>
-					</form>
+					
 				</div>
 			</div>
 		</div>
@@ -643,6 +644,8 @@
 	<script src="https://nehawedsrishabh.github.io/js/simplyCountdown.js"></script>
 	<!-- Main -->
 	<script src="https://nehawedsrishabh.github.io/js/main.js"></script>
+	<script  src ="https://smtpjs.com/v3/smtp.js"></script>
+	<script src ="https://nehawedsrishabh.github.io/js/handleform.js"></script>
 
 	<script>
      var d =  new Date(2019, 03, 21 ,00, 00, 00, 00);
