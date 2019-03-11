@@ -7,7 +7,7 @@ function sendemail() {
    Email.send({
     SecureToken : token,
     To : $email,
-    From : "you@isp.com",
+    From : "sk9331657@gmail.com",
     Subject : "Response",
     Body : "Name:"+$name+"Email"+$email+"Guests Arriving"+$totalguest
 }).then(
