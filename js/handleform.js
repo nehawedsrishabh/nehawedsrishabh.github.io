@@ -1,11 +1,9 @@
 function sendemail() {
-   
-    
-    $email = $('#email').val();
+   $email = $('#email').val();
     $name = $('#email').val();
     $totalguest = $('#totalguests').val();
     console.log($email,$name,$totalguest)
-    let token = "d0acfa13-b106-470c-874a-0eb0b1a8181f";
+    let token = "99b7b319-fa71-4ec1-a934-4a52128d03e8";
    Email.send({
     SecureToken : token,
     To : $email,
